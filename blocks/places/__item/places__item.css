@@ -1,0 +1,12 @@
+.places__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "places__title place__webcite"
+    "places__image places__description";
+    gap: 40px;
+    margin: 0 0 80px;
+}
+
+.places__item:last-child {
+    margin-bottom: 0;
+}

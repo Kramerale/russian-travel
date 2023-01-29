@@ -1,4 +1,6 @@
-.places__list {
+.footer__links-list {
+    display: flex;
+    gap: 18px;
     list-style-type: none;
     padding: 0;
     margin: 0;
