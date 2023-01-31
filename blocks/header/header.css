@@ -3,6 +3,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 0 56px;
-    margin: 0 auto;
+    padding: 28px 48px 56px;
+    /* margin: 0 auto; */
+}
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }
