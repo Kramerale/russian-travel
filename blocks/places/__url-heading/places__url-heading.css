@@ -3,4 +3,11 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
+    margin: 0 0 12px;
+}
+
+@media (max-width: 320px) {
+    .places__url-heading {
+        padding-left: 16px;
+    }
 }
