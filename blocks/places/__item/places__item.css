@@ -26,7 +26,7 @@
     }
 }
 
-@media (max-width: 581px) {
+@media (max-width: 650px) {
     .places__item {
         grid-template-columns: 1fr;
         grid-template-areas: "places__title"
